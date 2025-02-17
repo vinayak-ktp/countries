@@ -73,20 +73,20 @@ const CountryPage = () => {
   }
 
   return countryData ? (
-    <div className="p-10 dark:bg-gray-900 fh_minus_header transition-all duration-300">
+    <div className="p-10 dark:bg-gray-900 fh_minus_header transition-all duration-300 max-md:p-8 max-sm:text-sm max-lg: h-auto">
       <button
         onClick={() => history.back()}
         className="py-1 pl-3 pr-4 rounded-md border border-gray-500 hover:bg-gray-500 bg-gray-200 transition-colors duration-200 dark:bg-gray-700 dark:text-white"
       >
         <i className="ri-arrow-left-line"></i> Back
       </button>
-      <div className="flex justify-center mt-20 mx-auto text-md h-auto">
+      <div className="flex justify-center mt-20 mx-auto text-md h-auto max-md:flex-col max-md:mt-10">
         <img
           src={countryData.flag}
           alt={countryName + " flag"}
-          className="w-[40%] rounded-xl my-auto shadow border-2 dark:border-white"
+          className="w-[40%] rounded-xl my-auto shadow border-2 dark:border-white max-md:w-full max-sm:border"
         />
-        <div className="flex flex-col ml-10 gap2 text-gray-600 max-w-[30%] dark:text-gray-300">
+        <div className="flex flex-col ml-10 gap2 text-gray-600 max-w-[30%] dark:text-gray-300 max-sm:max-w-full max-md:mt-8 max-md:ml-1">
           <h1 className="font-bold text-3xl mb-4 text-black dark:text-gray-200 underline">
             {countryName.toUpperCase()}
           </h1>

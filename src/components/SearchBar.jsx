@@ -2,7 +2,7 @@ import React from "react";
 
 const SearchBar = ({ setQuery }) => {
   return (
-    <div className="bg-gray-100 shadow-md w-[30%] dark:bg-gray-700 rounded-md px-3 flex items-center font-medium border-b border-r border-gray-400 transition-all duration-300">
+    <div className="bg-gray-100 shadow-md w-[30%] dark:bg-gray-700 rounded-md px-3 flex items-center font-medium border-b border-r border-gray-400 transition-all duration-300 max-sm:w-full">
       <i className="ri-search-line mr-2 dark:text-white text-gray-500"></i>
       <input
         type="text"
