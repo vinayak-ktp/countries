@@ -76,7 +76,7 @@ const CountryPage = () => {
     <div className="p-10 dark:bg-gray-900 fh_minus_header">
       <button
         onClick={() => history.back()}
-        className="py-1 pl-3 pr-4 rounded-md border border-gray-500 hover:bg-gray-300 bg-gray-200 transition-colors duration-200 dark:bg-gray-700 dark:text-white"
+        className="py-1 pl-3 pr-4 rounded-md border border-gray-500 hover:bg-gray-500 bg-gray-200 transition-colors duration-200 dark:bg-gray-700 dark:text-white"
       >
         <i className="ri-arrow-left-line"></i> Back
       </button>
