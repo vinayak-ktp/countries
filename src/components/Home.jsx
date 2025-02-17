@@ -7,7 +7,7 @@ const Home = () => {
   const [query, setQuery] = useState("");
   const [region, setRegion] = useState("");
   return (
-    <main className="dark:bg-gray-900">
+    <main className="dark:bg-gray-900 transition-all duration-300">
       <div className="flex justify-between p-10">
         <SearchBar setQuery={setQuery} />
         <Dropdown setRegion={setRegion} />

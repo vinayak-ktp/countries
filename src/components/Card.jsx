@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 const Card = ({ country, population, region, capital, img, data }) => {
   return (  
     <Link to={`/${country}`} state={data}>
-      <div className="w-64 rounded-md shadow-md overflow-hidden m-auto hover:cursor-pointer hover:scale-105 transition-transform duration-300 dark:bg-gray-800  dark:border-gray-500 border-b border-r border-gray-300">
+      <div className="w-64 rounded-md shadow-md overflow-hidden m-auto hover:cursor-pointer hover:scale-105 transition-all duration-300 dark:bg-gray-800  dark:border-gray-500 border-b border-r border-gray-300">
         <img
           src={img}
           alt={country + " flag"}
