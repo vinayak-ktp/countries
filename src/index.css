@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+i {
+    font-size: 1.2rem;
+}
+
+/* b {
+    @apply font-medium;
+} */
+
+.text-md {
+    font-size: 1.1rem;
+}
+
+a {
+    @apply text-black dark:text-white;
+}
+
+.fh_minus_71 {
+    height: calc(100vh - 71px);
+}
