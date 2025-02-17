@@ -18,6 +18,6 @@ a {
     @apply text-black dark:text-white;
 }
 
-.fh_minus_71 {
-    height: calc(100vh - 71px);
+.fh_minus_header {
+    height: calc(100vh - 66px);
 }

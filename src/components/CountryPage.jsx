@@ -73,7 +73,7 @@ const CountryPage = () => {
   }
 
   return countryData ? (
-    <div className="p-10 dark:bg-gray-900 fh_minus_71">
+    <div className="p-10 dark:bg-gray-900 fh_minus_header">
       <button
         onClick={() => history.back()}
         className="py-1 pl-3 pr-4 rounded-md border border-gray-500 hover:bg-gray-300 bg-gray-200 transition-colors duration-200 dark:bg-gray-700 dark:text-white"
@@ -84,9 +84,9 @@ const CountryPage = () => {
         <img
           src={countryData.flag}
           alt={countryName + " flag"}
-          className="w-[40%] h-full rounded-xl my-auto shadow border-3 dark:border-white"
+          className="w-[40%] rounded-xl my-auto shadow border-2 dark:border-white"
         />
-        <div className="flex flex-col ml-10 gap2 text-gray-600 max-w-[30%] dark:text-gray-400">
+        <div className="flex flex-col ml-10 gap2 text-gray-600 max-w-[30%] dark:text-gray-300">
           <h1 className="font-bold text-3xl mb-4 text-black dark:text-gray-200 underline">
             {countryName.toUpperCase()}
           </h1>
@@ -109,7 +109,7 @@ const CountryPage = () => {
             <b>Languages:</b> {countryData.languages}
           </h3>
           {countryData.borderCountries.length ? (
-            <h3 className="flex flex-wrap">
+            <h3 className="flex flex-wrap mt-5">
               <b>Border:</b>{" "}
               {countryData.borderCountries.map((country, idx) => (
                 <Link

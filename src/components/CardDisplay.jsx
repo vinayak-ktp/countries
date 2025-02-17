@@ -23,7 +23,7 @@ const CardDisplay = ({ query, region }) => {
   }
 
   return (
-    <div className=" flex flex-wrap gap-10 min-h-lvh justify-around px-10">
+    <div className=" flex flex-wrap gap-10 min-h-lvh justify-around p-10 pt-0">
       {countries
         .filter((country) => 
           country.name.common.toLowerCase().includes(query.toLowerCase())
