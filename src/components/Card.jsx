@@ -11,7 +11,7 @@ const Card = ({ country, population, region, capital, img, data }) => {
           className="h-40 w-full object-cover shadow-md max-sm:h-52"
         />
         <div className="text-left p-4 dark:text-gray-300">
-          <h1 className="font-medium text-xl mb-1 dark:text-white">{country.length > 20 ? country.slice(0, 20) + "..." : country}</h1>
+          <h1 className="font-medium text-xl mb-1 dark:text-white">{country.length > 17 ? country.slice(0, 17) + "..." : country}</h1>
           <p><i className="ri-group-3-fill"></i> : {population.toLocaleString("en-US")}</p>
           <p><i className="ri-earth-fill"></i> : {region}</p>
           <p><i className="ri-map-pin-2-fill"></i> : {capital}</p>

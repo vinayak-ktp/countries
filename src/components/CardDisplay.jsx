@@ -23,7 +23,7 @@ const CardDisplay = ({ query, region }) => {
   }
 
   return (
-    <div className="grid grid-cols-4 gap-10 min-h-lvh justify-around p-10 pt-0 max-sm:px-8 max-sm:grid-cols-1 max-lg:grid-cols-3 max-md:grid-cols-2 max-w-7xl m-auto">
+    <div className="grid grid-cols-4 gap-10 min-h-lvh p-10 pt-0 max-sm:px-8 max-sm:grid-cols-1 max-lg:grid-cols-3 max-md:grid-cols-2 max-w-7xl m-auto">
       {countries
         .filter((country) => 
           country.name.common.toLowerCase().includes(query.toLowerCase())

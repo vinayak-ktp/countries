@@ -11,8 +11,8 @@ const Header = () => {
   }
 
   return (
-    <main>
-        <div className="font-bold text-2xl px-11 py-4 shadow-md flex justify-between items-center dark:bg-gray-900 dark:border-b dark:border-white transition-all duration-300 max-sm:px-8">
+    <main className="dark:bg-gray-900 dark:border-b dark:border-white transition-all duration-300">
+        <div className="font-bold text-2xl px-11 py-4 shadow-md flex justify-between items-center  max-sm:px-8 max-w-7xl m-auto">
           <Link to='/'>
             <div><i className="ri-map-2-fill" style={{fontSize: '1.5rem'}}></i> Flagged!</div>
           </Link>
