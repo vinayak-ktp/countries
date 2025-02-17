@@ -3,7 +3,7 @@ import axios from "axios";
 import Card from "./Card";
 import CountryDisplayShimmer from "./CountryDisplayShimmer";
 
-const CardDisplay = ({ query }) => {
+const CardDisplay = ({ query, region }) => {
   const [countries, setCountries] = useState([]);
 
   useEffect(() => {
@@ -27,6 +27,7 @@ const CardDisplay = ({ query }) => {
       {countries
         .filter((country) => 
           country.name.common.toLowerCase().includes(query.toLowerCase())
+          && country.region.toLowerCase().includes(region.toLowerCase())
         ) 
         .map((country) => (
           <Card

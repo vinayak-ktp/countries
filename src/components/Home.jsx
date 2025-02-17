@@ -12,7 +12,7 @@ const Home = () => {
         <SearchBar setQuery={setQuery} />
         <Dropdown setRegion={setRegion} />
       </div>
-      <CardDisplay query={query} />
+      <CardDisplay query={query} region={region}/>
     </main>
   );
 };
