@@ -2,6 +2,8 @@
 
 This is a simple React project where users can explore details about countries. It allows users to view country cards, click on them to see detailed information with the help of API, and explore the countries with various filtering and search options.
 
+Check it out [HERE](https://flagged-vf.vercel.app)
+
 ## ✨ Features 
 
 - **Country Cards**: Display a list of countries with their basic information.
@@ -19,7 +21,7 @@ This is a simple React project where users can explore details about countries. 
 - **React Context API**: Used for managing global state, such as the theme and country data.
 - **React Hooks**: Used for managing state and side effects within functional components.
 - **Tailwind CSS**: Used for responsive styling and seamless dark mode integration with utility classes.
-- **REST API**: Fetching country data from an external API (e.g., [REST Countries](https://restcountries.com)).
+- **REST API**: Fetching country data from an external API ([REST Countries](https://restcountries.com)).
 
 ## Installation
 
