@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams, useLocation } from "react-router-dom";
 import axios from "axios";
-import CountryPageShimmer from "./CountryPageShimmer";
+import CountryPageShimmer from "./shimmerEffects/CountryPageShimmer";
 
 const CountryPage = () => {
   const [countryData, setCountryData] = useState(null);

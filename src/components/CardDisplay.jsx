@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Card from "./Card";
-import CountryDisplayShimmer from "./CountryDisplayShimmer";
+import CountryDisplayShimmer from "./shimmerEffects/CountryDisplayShimmer";
 
 const CardDisplay = ({ query, region }) => {
   const [countries, setCountries] = useState([]);
